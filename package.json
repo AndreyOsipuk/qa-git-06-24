@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "dependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
+    "husky": "^9.1.1",
     "jest-environment-jsdom": "^29.7.0"
   }
 }
