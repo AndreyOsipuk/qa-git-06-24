@@ -13,5 +13,3 @@ export function calculate(a, b, operator) {
     result.innerHTML = a ** b
   }
 }
-
-export const value = 0
